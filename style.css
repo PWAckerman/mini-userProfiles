@@ -1,0 +1,35 @@
+.box{
+  width: 300px;
+  background-color: rgb(83, 144, 99);
+  height: auto;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 20px;
+  display: inline-block;
+  transition: 1s;
+  text-transform: capitalize;
+  color: white;
+  font-family: sans-serif;
+}
+
+.column{
+  width: auto;
+  height: 100%;
+  display: inline-block;
+}
+
+.profile{
+  border-radius: 500px;
+  display: inline-block;
+  border: 2px transparent white;
+  transition: 1s;
+}
+
+.profile:hover{
+  border: 2px solid white;
+  transition: 1s;
+}
+
+.profile-text{
+  line-height: 100%;
+}
